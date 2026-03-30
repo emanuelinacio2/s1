@@ -1,0 +1,41 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 128 128"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">TechStore Risk Analysis Icon</title>
+  <desc id="desc">
+    Corporate shield icon representing monitoring, protection, and risk control.
+  </desc>
+  <defs>
+    <linearGradient id="panel" x1="18" y1="14" x2="110" y2="114" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#223a5d" />
+      <stop offset="1" stop-color="#132742" />
+    </linearGradient>
+    <linearGradient id="shield" x1="64" y1="28" x2="64" y2="98" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f4d58d" />
+      <stop offset="1" stop-color="#d5a743" />
+    </linearGradient>
+  </defs>
+  <rect x="10" y="10" width="108" height="108" rx="28" fill="url(#panel)" />
+  <path
+    d="M64 24c13 9 24 12 34 13v24c0 22-13 33-34 43C43 94 30 83 30 61V37c10-1 21-4 34-13Z"
+    fill="url(#shield)"
+  />
+  <path
+    d="M64 36c9 6 17 8 24 9v16c0 15-8 23-24 32C48 84 40 76 40 61V45c7-1 15-3 24-9Z"
+    fill="#f8f4ea"
+    opacity="0.92"
+  />
+  <path
+    d="M52 68.5 61 77l17-22"
+    fill="none"
+    stroke="#19314f"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="8"
+  />
+  <rect x="22" y="90" width="28" height="8" rx="4" fill="#8fb4e3" opacity="0.75" />
+  <rect x="78" y="30" width="20" height="8" rx="4" fill="#8fb4e3" opacity="0.5" />
+</svg>
