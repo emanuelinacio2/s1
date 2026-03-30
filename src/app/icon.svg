@@ -6,36 +6,45 @@
 >
   <title id="title">TechStore Risk Analysis Icon</title>
   <desc id="desc">
-    Corporate shield icon representing monitoring, protection, and risk control.
+    Professional badge with shield and analytics line for risk governance.
   </desc>
   <defs>
-    <linearGradient id="panel" x1="18" y1="14" x2="110" y2="114" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#223a5d" />
-      <stop offset="1" stop-color="#132742" />
-    </linearGradient>
-    <linearGradient id="shield" x1="64" y1="28" x2="64" y2="98" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#f4d58d" />
-      <stop offset="1" stop-color="#d5a743" />
+    <radialGradient id="ring" cx="24" cy="20" r="130" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#25508c" />
+      <stop offset="1" stop-color="#102542" />
+    </radialGradient>
+    <linearGradient id="shield" x1="64" y1="30" x2="64" y2="98" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f1c86a" />
+      <stop offset="1" stop-color="#c9942b" />
     </linearGradient>
   </defs>
-  <rect x="10" y="10" width="108" height="108" rx="28" fill="url(#panel)" />
+
+  <circle cx="64" cy="64" r="58" fill="url(#ring)" />
+  <circle cx="64" cy="64" r="52" fill="none" stroke="#6ca0dc" stroke-opacity="0.35" stroke-width="2" />
+
   <path
-    d="M64 24c13 9 24 12 34 13v24c0 22-13 33-34 43C43 94 30 83 30 61V37c10-1 21-4 34-13Z"
+    d="M64 27c14 9 25 13 34 14v23c0 21-13 32-34 41-21-9-34-20-34-41V41c9-1 20-5 34-14Z"
     fill="url(#shield)"
   />
   <path
-    d="M64 36c9 6 17 8 24 9v16c0 15-8 23-24 32C48 84 40 76 40 61V45c7-1 15-3 24-9Z"
-    fill="#f8f4ea"
-    opacity="0.92"
+    d="M64 38c9 6 17 8 24 9v15c0 15-8 23-24 30-16-7-24-15-24-30V47c7-1 15-3 24-9Z"
+    fill="#fff9ea"
+  />
+
+  <path
+    d="M44 76h40"
+    fill="none"
+    stroke="#1f3657"
+    stroke-opacity="0.25"
+    stroke-width="5"
+    stroke-linecap="round"
   />
   <path
-    d="M52 68.5 61 77l17-22"
+    d="M47 69 58 60l8 8 15-17"
     fill="none"
-    stroke="#19314f"
+    stroke="#1f3657"
     stroke-linecap="round"
     stroke-linejoin="round"
-    stroke-width="8"
+    stroke-width="7"
   />
-  <rect x="22" y="90" width="28" height="8" rx="4" fill="#8fb4e3" opacity="0.75" />
-  <rect x="78" y="30" width="20" height="8" rx="4" fill="#8fb4e3" opacity="0.5" />
 </svg>
